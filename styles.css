@@ -1,0 +1,228 @@
+body {
+  background-color: #121725;
+  font-family: "Chivo", sans-serif;
+  background-image: url(./img/Bitmapp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+header p {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+header img {
+  height: 65px;
+  width: 65px;
+}
+
+.texts p {
+  color: #c2cbe5;
+  line-height: 30px;
+  font-weight: lighter;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  width: 300px;
+}
+
+.texts h2 {
+  color: #54e6af;
+  font-weight: lighter;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+#everywhere {
+  color: white;
+}
+
+.socials {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 50px 20px 0 20px;
+}
+.socials img {
+  margin: 0 2vw;
+}
+.wider-logo {
+  width: 100px;
+  height: 15px;
+}
+.shorter-logo {
+  width: 55px;
+  height: 17px;
+}
+.email-request input {
+  background-color: #2c344b;
+  height: 46px;
+  border: none;
+  border-radius: 28px;
+  color: white;
+  padding: 0 30px;
+
+  width: 240px;
+}
+
+.email-request {
+  display: block;
+  margin: auto;
+  margin: 50px 20px 100px 20px;
+}
+
+.email-request button {
+  background-color: #54e6af;
+  height: 46px;
+  border: none;
+  border-radius: 28px;
+  color: #121725;
+  padding: 0 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 300px;
+}
+.socials2 {
+  display: none;
+}
+
+.dot-img {
+  display: none;
+}
+#bckgr-img {
+  display: none;
+}
+#desktop-bckgr {
+  display: none;
+}
+
+#error {
+  color: #fb3e3e;
+  font-size: 12px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: none;
+    margin-left: 40px;
+  }
+  #bckgr-img {
+    display: block;
+    margin-left: auto;
+  }
+  section {
+    position: relative;
+    margin-top: -260px;
+  }
+  .main {
+    position: absolute;
+    margin-top: -515px;
+    background-color: #121725;
+    text-align: start;
+    width: 70vw;
+    padding-top: 90px;
+  }
+  .socials {
+    display: none;
+  }
+  .socials2 {
+    display: block;
+  }
+  .email-request {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    margin: 40px 0 60px 0;
+  }
+  .email-request button {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 325px;
+    width: 160px;
+    height: 40px;
+    padding: 10px;
+    font-weight: 800;
+  }
+  header {
+    justify-content: start;
+  }
+  .email-request input {
+    width: 430px;
+  }
+  .texts p {
+    margin: 0;
+  }
+  .main h2 {
+    font-size: 40px;
+  }
+  .main p {
+    width: 360px;
+  }
+  .socials2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12vw;
+  }
+  .wider-logo {
+    width: 120px;
+    height: 20px;
+  }
+  .shorter-logo {
+    width: 80px;
+    height: 20px;
+  }
+  .dot-img {
+    display: block;
+    margin-top: 160px;
+  }
+  #desktop-bckgr {
+    display: none;
+  }
+  #error {
+    margin-top: 10vh;
+    margin-left: -480px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  #bckgr-img {
+    display: none;
+  }
+  #desktop-bckgr {
+    display: block;
+    margin-left: auto;
+    margin-top: 180px;
+  }
+  body {
+    padding: 20px 0 130px 160px;
+  }
+
+  .main {
+    width: 46vw;
+  }
+
+  .dot-img {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1050px;
+  }
+  .email-request button:hover {
+    cursor: pointer;
+    background-color: #b3ffe2;
+  }
+}
