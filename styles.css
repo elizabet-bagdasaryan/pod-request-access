@@ -152,7 +152,7 @@ header img {
   .email-request button {
     position: absolute;
     margin-top: 3px;
-    margin-left: 325px;
+    margin-left: 295px;
     width: 160px;
     height: 40px;
     padding: 10px;
@@ -162,7 +162,8 @@ header img {
     justify-content: start;
   }
   .email-request input {
-    width: 430px;
+    width: 250px;
+    padding-right: 180px;
   }
   .texts p {
     margin: 0;
@@ -195,7 +196,7 @@ header img {
   }
   #error {
     margin-top: 10vh;
-    margin-left: -480px;
+    margin-left: -450px;
   }
 }
 
@@ -224,5 +225,8 @@ header img {
   .email-request button:hover {
     cursor: pointer;
     background-color: #b3ffe2;
+  }
+  #error {
+    margin-top: 8vh;
   }
 }
